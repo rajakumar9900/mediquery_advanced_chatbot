@@ -10,7 +10,7 @@ interface TokenPayload {
 export default function Dashboard() {
   const navigate = useNavigate();
   const [userEmail, setUserEmail] = useState("");
-  const [reportCount, setReportCount] = useState(0);
+  const [reportCount, setReportCount] = useState(0);   
 
   useEffect(() => {
     const token = localStorage.getItem("token");
